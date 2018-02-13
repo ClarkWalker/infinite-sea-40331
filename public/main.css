@@ -7,6 +7,12 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  background: url("./img/flower.jpg");
+  background-size: 100%;
+  color: #511;
+}
+
+#background-img {
 
 }
 
@@ -26,4 +32,5 @@ header {
 
 main {
   width: 61%;
+  font-size: 1.2em;
 }
