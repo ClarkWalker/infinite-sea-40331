@@ -1,4 +1,29 @@
-/**/
+/* this is a useful sanity chack and layout tool */
+html {
+
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+}
+
 * {
+  /**/
+  border: 1px solid rgba(256, 0, 0, 0);
+  /*/
   border: 1px solid red;
-}/**/
+  /**/
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+main {
+  width: 61%;
+}
