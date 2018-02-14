@@ -7,13 +7,10 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  background: url("./img/flower.jpg");
-  background-size: 100%;
-  color: #511;
-}
-
-#background-img {
-
+  background:
+    url("./img/sunflower.jpg") top center;
+  background-size: 100% auto;
+  color: #4caf50;
 }
 
 * {
@@ -31,6 +28,9 @@ header {
 }
 
 main {
-  width: 61%;
-  font-size: 1.2em;
+  width: 39%;
+  font-size: 1.3em;
+  min-height: 1vh;
+}
+@@media screen (min-width: 900px) {
 }
